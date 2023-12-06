@@ -32,5 +32,12 @@ namespace GeneratingPatterns.CreateObjects
             Scene.Instance.AddGraphObjectToScene(c);
             return c;
         }
+
+        public override TriangleAdapter createTriangle(int xa, int ya, int xb, int yb, int xc, int yc, string color)
+        {
+            TriangleAdapter t = new TriangleAdapter(new Triangle(xa, ya, xb, yb, xc, yc, color));
+            Scene.Instance.AddGraphObjectToScene(t);
+            return t;
+        }
     }
 }

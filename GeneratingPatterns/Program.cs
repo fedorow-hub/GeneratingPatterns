@@ -17,4 +17,4 @@ using GeneratingPatterns.Builders;
 
 Director director = new Director(new BuildRealScene());
 
-director.make();
+director.make(true);

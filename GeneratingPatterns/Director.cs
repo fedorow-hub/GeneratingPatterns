@@ -10,11 +10,15 @@ namespace GeneratingPatterns
             _builder = builder;
         }
 
-        public void make ()
+        public void make (bool needTriangle)
         {
             _builder.CreatePoint();
             _builder.CreateLine();
             _builder.CreateCircle();
+            if (needTriangle == true)
+            {
+                _builder.CreateTriangle();
+            }
             _builder.ShowWork();
         }
     }

@@ -8,5 +8,6 @@ namespace GeneratingPatterns.CreateObjects
         public abstract Point createDefaultPoint();
         public abstract Line createLine(int xs, int ys, int xe, int ye, string color);
         public abstract Circle createCircle(int x, int y, int r, string color);
+        public abstract TriangleAdapter createTriangle(int xa, int ya, int xb, int yb, int xc, int yc, string color);
     }
 }

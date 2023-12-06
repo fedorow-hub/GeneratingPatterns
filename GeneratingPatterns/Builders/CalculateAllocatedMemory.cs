@@ -19,6 +19,11 @@
             totalAllocatedMemory += 100;
         }
 
+        public void CreateTriangle()
+        {
+            totalAllocatedMemory += 2000;
+        }
+
         public void ShowWork()
         {
             Console.WriteLine(totalAllocatedMemory);

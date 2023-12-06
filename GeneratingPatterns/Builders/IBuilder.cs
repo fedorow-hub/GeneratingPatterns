@@ -5,6 +5,7 @@
         void CreatePoint();
         void CreateLine();
         void CreateCircle();
+        void CreateTriangle();
         void ShowWork();
     }
 }

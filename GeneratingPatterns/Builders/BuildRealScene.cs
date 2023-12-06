@@ -20,6 +20,11 @@ namespace GeneratingPatterns.Builders
             colorObjectsFactory.createDefaultPoint();
         }
 
+        public void CreateTriangle()
+        {
+            colorObjectsFactory.createTriangle(1, 2, 3, 4, 5, 6, "yelow");
+        }
+
         public void ShowWork()
         {
             Scene.Instance.Draw();
