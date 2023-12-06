@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GeneratingPatterns.GraphObjects
+﻿namespace GeneratingPatterns.GraphObjects
 {
     internal class Triangle
     {
@@ -19,14 +12,13 @@ namespace GeneratingPatterns.GraphObjects
         public string Color { get; set; }
         public Triangle(int xa, int ya, int xb, int yb, int xc, int yc, string color)
         {
-            XA = xa; 
-            YA = ya; 
-            XB = xb; 
-            YB = yb; 
-            XC = xc; 
-            YC = yc; 
+            XA = xa;
+            YA = ya;
+            XB = xb;
+            YB = yb;
+            XC = xc;
+            YC = yc;
             Color = color;
         }
-
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace GeneratingPatterns.GraphObjects
 {
-    internal class TriangleAdapter : GraphObject
+    internal class TriangleAdapter : SimpleShape
     {
         private Triangle _triangle;
         public TriangleAdapter(Triangle triangle)

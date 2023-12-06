@@ -1,6 +1,6 @@
 ﻿namespace GeneratingPatterns.GraphObjects
 {
-    internal class Circle : GraphObject
+    internal class Circle : SimpleShape
     {
         public int X { get; set; }
         public int Y { get; set; }

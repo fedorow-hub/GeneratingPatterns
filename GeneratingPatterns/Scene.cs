@@ -4,15 +4,14 @@ namespace GeneratingPatterns
 {
     internal class Scene
     {
-        private List<GraphObject> graphObjects;
-        public List<GraphObject> GraphObjects { get { return graphObjects; } }
+        
+        public GraphObject Root { get; set; }
 
         private static volatile Scene _instance;
         private static readonly object _syncRoot = new object();
 
         private Scene()
         {
-            graphObjects = new List<GraphObject>();
         }
 
         public static Scene Instance
@@ -23,32 +22,34 @@ namespace GeneratingPatterns
                 {
                     lock (_syncRoot)
                     {
-                        if (_instance == null)
-                        {
-                            _instance = new Scene();
-                        }
+                        _instance = new Scene();
                     }
                 }
                 return _instance;
             }
         }
 
-        public void AddGraphObjectToScene(GraphObject graphObject)
+        public void AddObjectToScene(CompositeShape p, GraphObject o)
         {
-            graphObjects.Add(graphObject);
+            if (p == null && Root is CompositeShape)
+            {
+                p = (CompositeShape)Root;
+            }                
+            if (p == null)
+                Root = o;
+            else
+                p.getChildren().Add(o);
         }
 
         public void ClearScene()
         {
-            graphObjects.Clear();
+            Root = null;
         }
 
         public void Draw()
         {
-            foreach (GraphObject graphObject in graphObjects)
-            {
-                graphObject.Draw();
-            }
+            if (Root != null)
+                Root.Draw();
         }
     }
 }

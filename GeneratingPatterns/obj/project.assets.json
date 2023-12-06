@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Сергей\\source\\repos\\GeneratingPatterns\\GeneratingPatterns\\GeneratingPatterns.csproj",
+      "projectUniqueName": "C:\\Users\\Сергей\\source\\repos\\GeneratingPatterns\\GeneratingPatterns\\GeneratingPatterns\\GeneratingPatterns.csproj",
       "projectName": "GeneratingPatterns",
-      "projectPath": "C:\\Users\\Сергей\\source\\repos\\GeneratingPatterns\\GeneratingPatterns\\GeneratingPatterns.csproj",
+      "projectPath": "C:\\Users\\Сергей\\source\\repos\\GeneratingPatterns\\GeneratingPatterns\\GeneratingPatterns\\GeneratingPatterns.csproj",
       "packagesPath": "C:\\Users\\Сергей\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Сергей\\source\\repos\\GeneratingPatterns\\GeneratingPatterns\\obj\\",
+      "outputPath": "C:\\Users\\Сергей\\source\\repos\\GeneratingPatterns\\GeneratingPatterns\\GeneratingPatterns\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Сергей\\AppData\\Roaming\\NuGet\\NuGet.Config",

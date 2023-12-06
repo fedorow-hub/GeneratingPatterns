@@ -1,28 +1,40 @@
 ﻿using GeneratingPatterns.CreateObjects;
+using GeneratingPatterns.GraphObjects;
 
 namespace GeneratingPatterns.Builders
 {
     internal class BuildRealScene : IBuilder
     {
         ColorObjectsFactory colorObjectsFactory = new ColorObjectsFactory();
-        public void CreateCircle()
+        public CompositeShape CreateRoot()
         {
-            colorObjectsFactory.createCircle(4, 5, 8, "blue");
+            return colorObjectsFactory.createRoot();
         }
 
-        public void CreateLine()
+        public CompositeShape CreateContainer(CompositeShape parent)
         {
-            colorObjectsFactory.createLine(0, 0, 100, 100, "green");
+            return colorObjectsFactory.createContainer(parent);
         }
 
-        public void CreatePoint()
+        public void CreateCircle(CompositeShape parent, int x, int y, int r, string color)
         {
-            colorObjectsFactory.createDefaultPoint();
+            colorObjectsFactory.createCircle(parent, x, y, r, color);
         }
 
-        public void CreateTriangle()
+        public void CreateLine(CompositeShape parent, int xs, int ys, int xe, int ye, string color)
         {
-            colorObjectsFactory.createTriangle(1, 2, 3, 4, 5, 6, "yelow");
+            colorObjectsFactory.createLine(parent, xs, ys, xe, ye, color);
+        }
+
+        public void CreatePoint(CompositeShape parent, int x, int y, string color)
+        {
+            colorObjectsFactory.createDefaultPoint(parent);
+        }
+
+
+        public void CreateTriangle(CompositeShape parent, int xa, int ya, int xb, int yb, int xc, int yc, string color)
+        {
+            colorObjectsFactory.createTriangle(parent, xa, ya, xb, yb, xc, yc, color);
         }
 
         public void ShowWork()

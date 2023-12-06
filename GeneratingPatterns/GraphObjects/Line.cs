@@ -1,6 +1,6 @@
 ﻿namespace GeneratingPatterns.GraphObjects
 {
-    internal class Line : GraphObject, ICloneable
+    internal class Line : SimpleShape
     {
         public int XStart { get; set; }
         public int YStart { get; set; }

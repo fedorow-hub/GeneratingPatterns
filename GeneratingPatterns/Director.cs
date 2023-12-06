@@ -1,4 +1,5 @@
 ﻿using GeneratingPatterns.Builders;
+using GeneratingPatterns.GraphObjects;
 
 namespace GeneratingPatterns
 {
@@ -12,12 +13,14 @@ namespace GeneratingPatterns
 
         public void make (bool needTriangle)
         {
-            _builder.CreatePoint();
-            _builder.CreateLine();
-            _builder.CreateCircle();
+            CompositeShape root = _builder.CreateRoot();
+            CompositeShape container = _builder.CreateContainer(root);
+            _builder.CreatePoint(container, 1, 2, "red");
+            _builder.CreateLine(container, 1, 2, 3, 4, "blue");
+            _builder.CreateCircle(container, 1,2,3, "yelow");
             if (needTriangle == true)
             {
-                _builder.CreateTriangle();
+                _builder.CreateTriangle(container, 1, 2, 3, 4, 5, 6, "brown");
             }
             _builder.ShowWork();
         }

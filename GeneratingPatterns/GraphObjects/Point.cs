@@ -1,6 +1,6 @@
 ﻿namespace GeneratingPatterns.GraphObjects
 {
-    internal class Point : GraphObject
+    internal class Point : SimpleShape
     {        
         public int X { get; set; }
         public int Y { get; set; }

@@ -12,3 +12,17 @@ C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\obj\Deb
 C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\GeneratingPatterns.pdb
 C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\GeneratingPatterns.genruntimeconfig.cache
 C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\ref\GeneratingPatterns.dll
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\bin\Debug\net6.0\GeneratingPatterns.exe
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\bin\Debug\net6.0\GeneratingPatterns.deps.json
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\bin\Debug\net6.0\GeneratingPatterns.runtimeconfig.json
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\bin\Debug\net6.0\GeneratingPatterns.dll
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\bin\Debug\net6.0\GeneratingPatterns.pdb
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\GeneratingPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\GeneratingPatterns.AssemblyInfoInputs.cache
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\GeneratingPatterns.AssemblyInfo.cs
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\GeneratingPatterns.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\GeneratingPatterns.dll
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\refint\GeneratingPatterns.dll
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\GeneratingPatterns.pdb
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\GeneratingPatterns.genruntimeconfig.cache
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\GeneratingPatterns\obj\Debug\net6.0\ref\GeneratingPatterns.dll
