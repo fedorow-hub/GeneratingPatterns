@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingPatterns", "GeneratingPatterns\GeneratingPatterns.csproj", "{F2FFA104-34B9-4727-A020-235C6B3C4EBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratingPatterns", "GeneratingPatterns\GeneratingPatterns.csproj", "{F2FFA104-34B9-4727-A020-235C6B3C4EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityAndObserver", "ChainOfResponsibilityAndObserver\ChainOfResponsibilityAndObserver.csproj", "{DBC1EF34-2087-4319-A645-0CF56BC2CCE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F2FFA104-34B9-4727-A020-235C6B3C4EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2FFA104-34B9-4727-A020-235C6B3C4EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2FFA104-34B9-4727-A020-235C6B3C4EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC1EF34-2087-4319-A645-0CF56BC2CCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC1EF34-2087-4319-A645-0CF56BC2CCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC1EF34-2087-4319-A645-0CF56BC2CCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC1EF34-2087-4319-A645-0CF56BC2CCE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

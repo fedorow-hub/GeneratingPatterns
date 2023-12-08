@@ -1,6 +1,8 @@
-﻿namespace GeneratingPatterns.GraphObjects
+﻿using GeneratingPatterns.Exports;
+
+namespace GeneratingPatterns.GraphObjects
 {
-    internal class Line : SimpleShape
+    internal class Line : SimpleShape, IExportable
     {
         public int XStart { get; set; }
         public int YStart { get; set; }
@@ -23,6 +25,11 @@
         public override void Draw()
         {
             Console.WriteLine($"Рисуем линию с координатами: начала X: {XStart}, Y: {YStart}, окончания X: {XEnd}, Y: {YEnd}, цвет: {Color}");
+        }
+
+        public void accept(IExportVisitor v)
+        {
+            v.exportGraphObject(this);
         }
     }
 }

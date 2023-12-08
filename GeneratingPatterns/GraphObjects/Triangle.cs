@@ -1,4 +1,6 @@
-﻿namespace GeneratingPatterns.GraphObjects
+﻿using GeneratingPatterns.Exports;
+
+namespace GeneratingPatterns.GraphObjects
 {
     internal class Triangle
     {
@@ -20,5 +22,7 @@
             YC = yc;
             Color = color;
         }
+
+        
     }
 }

@@ -23,6 +23,7 @@ namespace GeneratingPatterns
                 _builder.CreateTriangle(container, 1, 2, 3, 4, 5, 6, "brown");
             }
             _builder.ShowWork();
+            _builder.Serialise();
         }
     }
 }

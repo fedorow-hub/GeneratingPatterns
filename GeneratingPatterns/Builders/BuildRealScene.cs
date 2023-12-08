@@ -41,5 +41,10 @@ namespace GeneratingPatterns.Builders
         {
             Scene.Instance.Draw();
         }
+
+        public void Serialise()
+        {
+            Scene.Instance.ExportToXML();
+        }
     }
 }

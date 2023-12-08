@@ -1,4 +1,6 @@
-﻿namespace GeneratingPatterns.GraphObjects
+﻿using GeneratingPatterns.Exports;
+
+namespace GeneratingPatterns.GraphObjects
 {
     internal class FillShapeDecorator : SimpleShape
     {
@@ -15,5 +17,6 @@
             _shapeForDecorate.Draw();
             Console.WriteLine($"Фигура залита цветом: {_fillColor}");
         }
+
     }
 }

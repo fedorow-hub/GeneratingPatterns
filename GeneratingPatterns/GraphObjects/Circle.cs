@@ -1,6 +1,8 @@
-﻿namespace GeneratingPatterns.GraphObjects
+﻿using GeneratingPatterns.Exports;
+
+namespace GeneratingPatterns.GraphObjects
 {
-    internal class Circle : SimpleShape
+    internal class Circle : SimpleShape, IExportable
     {
         public int X { get; set; }
         public int Y { get; set; }
@@ -21,6 +23,11 @@
         public override void Draw()
         {
             Console.WriteLine($"Рисуем круг с центром в точке с координатами X: {X}, Y: {Y}, радиусом: {Radius} цвет: {Color}");
+        }
+
+        public void accept(IExportVisitor v)
+        {
+            v.exportGraphObject(this);
         }
 
     }

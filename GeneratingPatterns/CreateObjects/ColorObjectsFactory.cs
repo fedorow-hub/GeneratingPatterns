@@ -7,7 +7,7 @@ namespace GeneratingPatterns.CreateObjects
         private Point DEFAULT_POINT = new Point(0, 0, "red");
         public override SimpleShape createCircle(CompositeShape parent, int x, int y, int r, string color)
         {
-            SimpleShape c = new FillShapeDecorator(new Circle(x, y, r, color), "gold");
+            SimpleShape c = new Circle(x, y, r, color);
             Scene.Instance.AddObjectToScene(parent, c);
             return c;
         }
@@ -52,5 +52,6 @@ namespace GeneratingPatterns.CreateObjects
             Scene.Instance.AddObjectToScene(parent, t);
             return t;
         }
+
     }
 }

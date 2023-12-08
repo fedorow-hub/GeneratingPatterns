@@ -1,6 +1,8 @@
-﻿namespace GeneratingPatterns.GraphObjects
+﻿using GeneratingPatterns.Exports;
+
+namespace GeneratingPatterns.GraphObjects
 {
-    internal class Point : SimpleShape
+    internal class Point : SimpleShape, IExportable
     {        
         public int X { get; set; }
         public int Y { get; set; }
@@ -19,6 +21,11 @@
         public override object Clone()
         {
             return new Point(X, Y, Color);
+        }
+
+        public void accept(IExportVisitor v)
+        {
+            v.exportGraphObject(this);
         }
     }
 }

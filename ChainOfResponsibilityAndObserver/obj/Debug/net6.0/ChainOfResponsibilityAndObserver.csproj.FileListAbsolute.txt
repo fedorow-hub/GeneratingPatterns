@@ -1,0 +1,14 @@
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\bin\Debug\net6.0\ChainOfResponsibilityAndObserver.exe
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\bin\Debug\net6.0\ChainOfResponsibilityAndObserver.deps.json
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\bin\Debug\net6.0\ChainOfResponsibilityAndObserver.runtimeconfig.json
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\bin\Debug\net6.0\ChainOfResponsibilityAndObserver.dll
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\bin\Debug\net6.0\ChainOfResponsibilityAndObserver.pdb
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\obj\Debug\net6.0\ChainOfResponsibilityAndObserver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\obj\Debug\net6.0\ChainOfResponsibilityAndObserver.AssemblyInfoInputs.cache
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\obj\Debug\net6.0\ChainOfResponsibilityAndObserver.AssemblyInfo.cs
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\obj\Debug\net6.0\ChainOfResponsibilityAndObserver.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\obj\Debug\net6.0\ChainOfResponsibilityAndObserver.dll
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\obj\Debug\net6.0\refint\ChainOfResponsibilityAndObserver.dll
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\obj\Debug\net6.0\ChainOfResponsibilityAndObserver.pdb
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\obj\Debug\net6.0\ChainOfResponsibilityAndObserver.genruntimeconfig.cache
+C:\Users\Сергей\source\repos\GeneratingPatterns\GeneratingPatterns\ChainOfResponsibilityAndObserver\obj\Debug\net6.0\ref\ChainOfResponsibilityAndObserver.dll

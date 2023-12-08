@@ -1,4 +1,6 @@
-﻿namespace GeneratingPatterns.GraphObjects
+﻿using GeneratingPatterns.Exports;
+
+namespace GeneratingPatterns.GraphObjects
 {
     internal abstract class GraphObject: ICloneable
     {

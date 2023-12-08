@@ -11,5 +11,6 @@ namespace GeneratingPatterns.Builders
         void CreateCircle(CompositeShape parent, int x, int y, int r, string color);
         void CreateTriangle(CompositeShape parent, int xa, int ya, int xb, int yb, int xc, int yc, string color);
         void ShowWork();
+        void Serialise();
     }
 }

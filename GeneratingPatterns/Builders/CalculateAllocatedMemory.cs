@@ -41,10 +41,15 @@ namespace GeneratingPatterns.Builders
             totalAllocatedMemory += 2000;
         }
 
+        public void Serialise()
+        {
+            totalAllocatedMemory += 20;
+        }
 
         public void ShowWork()
         {
             Console.WriteLine(totalAllocatedMemory);
         }
+
     }
 }

@@ -1,10 +1,11 @@
-﻿using GeneratingPatterns.GraphObjects;
+﻿using GeneratingPatterns.Exports;
+using GeneratingPatterns.GraphObjects;
+using GeneratingPatterns.Iterator;
 
 namespace GeneratingPatterns
 {
     internal class Scene
-    {
-        
+    {        
         public GraphObject Root { get; set; }
 
         private static volatile Scene _instance;
@@ -51,5 +52,26 @@ namespace GeneratingPatterns
             if (Root != null)
                 Root.Draw();
         }
+
+        public void ExportToXML()
+        {
+            XMLSerialisationVisitor visitor = new XMLSerialisationVisitor();
+            var scene = this.Root as CompositeShape;
+            if (scene != null)
+            {
+                IIterator iter = scene.getIterator();
+                Console.WriteLine("<scene>");                
+                while(iter.hasMore())
+                {
+                    GraphObject g = iter.getNext();
+                    if (g != null)
+                    {
+                        ((IExportable)g).accept(visitor);                        
+                    }
+                }
+                Console.WriteLine("</scene>");
+            }
+        }
+
     }
 }

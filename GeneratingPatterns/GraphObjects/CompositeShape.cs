@@ -1,6 +1,8 @@
-﻿namespace GeneratingPatterns.GraphObjects
+﻿using GeneratingPatterns.Iterator;
+
+namespace GeneratingPatterns.GraphObjects
 {
-    internal class CompositeShape : GraphObject
+    internal class CompositeShape : GraphObject, IIterableGraphObjectCollection
     {
         private List<GraphObject> children;
 
@@ -17,6 +19,11 @@
             {
                 g.Draw();
             }
+        }
+
+        public IIterator getIterator()
+        {
+           return new CompositeShapeIterator(this);
         }
     }
 }
